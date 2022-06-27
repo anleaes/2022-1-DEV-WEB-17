@@ -24,8 +24,8 @@
                         <a class="dropdown-item" href="#">Clientes</a>
                         <a class="dropdown-item" href="#">Pedidos</a>
                         <a class="dropdown-item" href="#">Produtos</a>
-                        <a class="{% url 'categories:list_categories' %}" href="#">Descrição de Serviços</a>
-                        <a class="dropdown-item" href="#">Redes Sociais</a>
+                        <a class="dropdown-item" href="{% url 'categories:list_categories' %}">Descrição de Serviços</a>
+                        <a class="dropdown-item" href="{% url 'pets:list_pets' %}">Pets</a>
                     </div>
                 </li>
             </ul>

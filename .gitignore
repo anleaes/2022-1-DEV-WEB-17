@@ -1,4 +1,6 @@
 CliniVetApp/__pycache__/*
-categories/__pycache__/*
+./categories/__pycache__/*
+./core/__pycache__/*
+./pets/__pycache__/*
 
 .env

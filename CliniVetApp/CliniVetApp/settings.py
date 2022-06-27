@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'core.apps.CoreConfig', 
     'categories.apps.CategoriesConfig',
+    'pets.apps.PetsConfig',
 ]
 
 MIDDLEWARE = [
