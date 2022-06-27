@@ -3,5 +3,6 @@ apps/categories/__pycache__/*
 apps/core/__pycache__/*
 apps/pets/__pycache__/*
 apps/services/__pycache__/*
+apps/clients/__pycache__/*
 
 .env

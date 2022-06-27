@@ -31,7 +31,7 @@ def edit_pets(request, id_pets):
     context ={}
     pets = get_object_or_404(Pets, id=id_pets)
     if request.method == 'POST':
-        form = PetsForm(request.POST, instance=pet)
+        form = PetsForm(request.POST, instance=pets)
         if form.is_valid():
             form.save()
             return redirect('pets:list_pets')
