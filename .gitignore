@@ -1,0 +1,10 @@
+CliniVetApp/__pycache__/*
+apps/categories/__pycache__/*
+apps/core/__pycache__/*
+apps/pets/__pycache__/*
+apps/services/__pycache__/*
+apps/clients/__pycache__/*
+apps/orders/__pycache__/*
+apps/accounts/__pycache__/*
+
+.env
